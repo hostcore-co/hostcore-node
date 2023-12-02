@@ -1,0 +1,25 @@
+{
+  "name": "hostcore-nodejs-sdk",
+  "version": "1.0.0",
+  "description": "HostCore Store API NodeJS SDK",
+  "main": "dist/index.js",
+  "module": "dist/index.m.js",
+  "unpkg": "dist/index.umd.js",
+  "types": "dist/index.d.ts",
+  "keywords": [],
+  "files": [
+    "dist"
+  ],
+  "author": "HostCore",
+  "license": "ISC",
+  "scripts": {
+    "build": "microbundle --tsconfig tsconfig.json --no-sourcemap"
+  },
+  "dependencies": {
+    "isomorphic-unfetch": "^4.0.2",
+    "microbundle": "^0.15.1"
+  },
+  "devDependencies": {
+    "@types/isomorphic-fetch": "^0.0.39"
+  }
+}
